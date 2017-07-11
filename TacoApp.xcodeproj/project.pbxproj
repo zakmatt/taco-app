@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84241DB61F157E0A00BEA017 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84241DB51F157E0A00BEA017 /* DataService.swift */; };
 		8490FE791F156F3A00AEF8C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490FE781F156F3A00AEF8C2 /* AppDelegate.swift */; };
 		8490FE7E1F156F3A00AEF8C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8490FE7C1F156F3A00AEF8C2 /* Main.storyboard */; };
 		8490FE801F156F3A00AEF8C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8490FE7F1F156F3A00AEF8C2 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84241DB51F157E0A00BEA017 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		8490FE751F156F3A00AEF8C2 /* TacoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8490FE781F156F3A00AEF8C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8490FE7D1F156F3A00AEF8C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				8490FEA61F15761900AEF8C2 /* Taco.swift */,
+				84241DB51F157E0A00BEA017 /* DataService.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				8490FE791F156F3A00AEF8C2 /* AppDelegate.swift in Sources */,
 				8490FEA31F1572DF00AEF8C2 /* DropShadow.swift in Sources */,
 				8490FE9F1F1570C900AEF8C2 /* MainVC.swift in Sources */,
+				84241DB61F157E0A00BEA017 /* DataService.swift in Sources */,
 				8490FEA71F15761900AEF8C2 /* Taco.swift in Sources */,
 				8490FEA51F15740700AEF8C2 /* HeaderView.swift in Sources */,
 			);
@@ -484,6 +488,7 @@
 				8490FE941F156F3A00AEF8C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8490FE951F156F3A00AEF8C2 /* Build configuration list for PBXNativeTarget "TacoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				8490FE971F156F3A00AEF8C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
