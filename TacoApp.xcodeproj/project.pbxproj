@@ -14,6 +14,9 @@
 		8490FE8E1F156F3A00AEF8C2 /* TacoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490FE8D1F156F3A00AEF8C2 /* TacoAppTests.swift */; };
 		8490FE9F1F1570C900AEF8C2 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490FE9E1F1570C900AEF8C2 /* MainVC.swift */; };
 		8490FEA11F15718100AEF8C2 /* TacoPOPData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8490FEA01F15718000AEF8C2 /* TacoPOPData.csv */; };
+		8490FEA31F1572DF00AEF8C2 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490FEA21F1572DF00AEF8C2 /* DropShadow.swift */; };
+		8490FEA51F15740700AEF8C2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490FEA41F15740700AEF8C2 /* HeaderView.swift */; };
+		8490FEA71F15761900AEF8C2 /* Taco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490FEA61F15761900AEF8C2 /* Taco.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,12 +35,14 @@
 		8490FE7D1F156F3A00AEF8C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8490FE7F1F156F3A00AEF8C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8490FE821F156F3A00AEF8C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8490FE841F156F3A00AEF8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8490FE891F156F3A00AEF8C2 /* TacoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8490FE8D1F156F3A00AEF8C2 /* TacoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoAppTests.swift; sourceTree = "<group>"; };
 		8490FE8F1F156F3A00AEF8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8490FE9E1F1570C900AEF8C2 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		8490FEA01F15718000AEF8C2 /* TacoPOPData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TacoPOPData.csv; path = ../../../../../Downloads/TacoPOP_Assets/TacoPOPData.csv; sourceTree = "<group>"; };
+		8490FEA21F1572DF00AEF8C2 /* DropShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
+		8490FEA41F15740700AEF8C2 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8490FEA61F15761900AEF8C2 /* Taco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taco.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +86,8 @@
 			children = (
 				8490FE9C1F15704B00AEF8C2 /* Protocols */,
 				8490FE9B1F15703E00AEF8C2 /* Extensions */,
-				8490FE9A1F15703600AEF8C2 /* Controler */,
 				8490FE991F15703200AEF8C2 /* View */,
+				8490FE9A1F15703600AEF8C2 /* Controler */,
 				8490FE981F15702C00AEF8C2 /* Model */,
 				8490FE9D1F15705400AEF8C2 /* Resources */,
 			);
@@ -101,6 +106,7 @@
 		8490FE981F15702C00AEF8C2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8490FEA61F15761900AEF8C2 /* Taco.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -110,6 +116,7 @@
 			children = (
 				8490FE7C1F156F3A00AEF8C2 /* Main.storyboard */,
 				8490FE811F156F3A00AEF8C2 /* LaunchScreen.storyboard */,
+				8490FEA41F15740700AEF8C2 /* HeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -133,6 +140,7 @@
 		8490FE9C1F15704B00AEF8C2 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				8490FEA21F1572DF00AEF8C2 /* DropShadow.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -142,7 +150,6 @@
 			children = (
 				8490FEA01F15718000AEF8C2 /* TacoPOPData.csv */,
 				8490FE7F1F156F3A00AEF8C2 /* Assets.xcassets */,
-				8490FE841F156F3A00AEF8C2 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -250,7 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8490FE791F156F3A00AEF8C2 /* AppDelegate.swift in Sources */,
+				8490FEA31F1572DF00AEF8C2 /* DropShadow.swift in Sources */,
 				8490FE9F1F1570C900AEF8C2 /* MainVC.swift in Sources */,
+				8490FEA71F15761900AEF8C2 /* Taco.swift in Sources */,
+				8490FEA51F15740700AEF8C2 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
